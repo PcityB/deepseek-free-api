@@ -4,7 +4,7 @@ export default {
 
     prefix: '/v1',
 
-    get: {
+        get: {
         '/models': async () => {
             return {
             "data": [
@@ -43,4 +43,9 @@ export default {
                     "object": "model",
                     "owned_by": "deepseek-free-api"
                 }
+                ]
+            }
+                }
+
+        }
 }
